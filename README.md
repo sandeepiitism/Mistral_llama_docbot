@@ -1,5 +1,5 @@
-# openAI_Doc_Chatbot
-# 🤖 DocBot — AI-Powered Document Assistant
+# LLAMA_Doc_Chatbot  
+# 🤖 DocBot — AI-Powered Document Assistant (LLAMA + FAISS)
 
 ![Human Bot Icon](https://cdn-icons-png.flaticon.com/512/4829/4829720.png)
 
@@ -7,7 +7,7 @@
 
 ### 🛠️ Steps:
 
-**🔗 Project Repo:** [https://github.com/sandeepiitism/openAI_Doc_Chatbot.git/](Doc Bot/)
+**🔗 Project Repo:** [https://github.com/sandeepiitism/openAI_Doc_Chatbot.git](https://github.com/sandeepiitism/openAI_Doc_Chatbot.git)
 
 ---
 
@@ -19,14 +19,6 @@ conda activate docbot
 
 pip install -r requirements.txt
 
-
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-
-python store_index.py
-
-
 python app.py
 ```
 
@@ -35,10 +27,10 @@ python app.py
 - 🐍 **Python**
 - 🔗 **LangChain**
 - 🌐 **Flask**
-- 🧠 **OpenAI GPT**
-- 🌲 **Pinecone**
+- 🦙 **LLAMA Model (Mistral variant)**
+- 📁 **FAISS Vector Store**
 
 
 ## 📽️ Demo
 
-Watch the full demo here: [▶️ Demo Video](https://github.com/user-attachments/assets/05f92aba-1048-4d61-b1df-c2c288340123)
+Watch the full demo here: [▶️ Demo Video](https://github.com/user-attachments/assets/3035362a-92d0-43fd-bc2c-59825954650d)
